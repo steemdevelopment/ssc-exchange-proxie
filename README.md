@@ -7,7 +7,8 @@
     contracts: 'https://api.steem-engine.com/rpc/contracts',
     steem: 'https://api.steemit.com',
     exchange: 'http://localhost:5000'
-}; ```
+}; 
+```
 
 ```yournewlink: 'https://localhost:yourport' You will need to add this into upstreams```
 
