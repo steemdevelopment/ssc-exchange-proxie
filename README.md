@@ -14,7 +14,7 @@
 
 
 ### Building your rpc methods
-```You will need to set the url to https://yourlink:port/rpc of the rpc server```
+```You will need to set the url to https://yourlink:port/rpc of the proxie server```
 
 ### How your methods should look using proxie
 ```curl -XPOST -H "Content-type: application/json" -d '{ "jsonrpc": "2.0", "method": "contracts.findOne", "params": { "contract": "tokens", "table": "balances", "query": { "account": "username", "symbol": "COINNAME" } }, "id": 1 }' 'http://localhost:3000/rpc'```
