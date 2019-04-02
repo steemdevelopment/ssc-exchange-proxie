@@ -19,4 +19,4 @@
 ### How your methods should look using proxie
 ```curl -XPOST -H "Content-type: application/json" -d '{ "jsonrpc": "2.0", "method": "contracts.findOne", "params": { "contract": "tokens", "table": "balances", "query": { "account": "username", "symbol": "COINNAME" } }, "id": 1 }' 'http://localhost:3000/rpc'```
 
-``` "method": "contracts.findOne" will be stripped once sent to the proxie server and will be turned into the normal method```
+``` "method": "contracts.findOne" will be stripped once sent to the proxie server```
