@@ -20,8 +20,8 @@ app.get("/", (req, res) => {
 const upstreams = {
     blockchain: 'https://api.steem-engine.com/rpc/blockchain', // You can use the default ssc node or change it to your own
     contracts: 'https://api.steem-engine.com/rpc/contracts', // You can use the default ssc node or change it to your own
-    steem: 'https://api.steemit.com', // Set this to any full Steem node
-    exchange: 'http://localhost:5000' // Or you set it to the up of your server
+    steem: 'https://api.steemit.com', // Set this to any full Steem node and use any steem command
+    exchange: 'http://localhost:5000' // Or you set it to the ip of your server
 
 };
 
